@@ -1,0 +1,8 @@
+{
+  "name": "Hearth",
+  "description": "A quiet workspace for thinking with AI. Minimal, distraction-free chat with persistent Google Drive storage and owner-managed multi-key failover.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

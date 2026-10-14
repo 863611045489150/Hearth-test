@@ -1,0 +1,131 @@
+{
+  "users": {
+    "test_user_aarush": {
+      "userId": "test_user_aarush",
+      "totalUsed": 0,
+      "reserved": 0,
+      "maxAllowed": 5,
+      "assignedSlot": 1,
+      "createdAt": 1791969581292,
+      "updatedAt": 1791969841349
+    }
+  },
+  "keyHealth": {
+    "1": {
+      "slot": 1,
+      "provider": "gemini",
+      "model": "gemini-3.8-flash",
+      "status": "healthy",
+      "failureCount": 0,
+      "assignedUsersCount": 0,
+      "lastUsedAt": 1791969786464
+    }
+  },
+  "logs": [
+    {
+      "id": "log_1791969841349_fwovk",
+      "timestamp": 1791969841349,
+      "event": "User quota manually reset by owner",
+      "status": "info",
+      "details": "{\"userId\":\"test_user_aarush\"}"
+    },
+    {
+      "id": "log_1791969833619_jnap6",
+      "timestamp": 1791969833619,
+      "event": "Key pool initialized",
+      "status": "info",
+      "details": "{\"totalKeys\":1,\"defaultProvider\":\"gemini\",\"defaultModel\":\"gemini-3.8-flash\"}"
+    },
+    {
+      "id": "log_1791969786464_2kr5z",
+      "timestamp": 1791969786464,
+      "event": "AI response quota committed",
+      "status": "success",
+      "details": "{\"userId\":\"test_user_aarush\",\"totalUsed\":2,\"remaining\":3}"
+    },
+    {
+      "id": "log_1791969773232_bifwj",
+      "timestamp": 1791969773232,
+      "event": "Key pool initialized",
+      "status": "info",
+      "details": "{\"totalKeys\":1,\"defaultProvider\":\"gemini\",\"defaultModel\":\"gemini-3.8-flash\"}"
+    },
+    {
+      "id": "log_1791969751363_qb1of",
+      "timestamp": 1791969751363,
+      "event": "AI response quota reservation rolled back",
+      "status": "warning",
+      "details": "{\"userId\":\"test_user_aarush\",\"reason\":\"All available AI keys are temporarily busy. Temporary provider network glitch. Hearth is retrying.\"}"
+    },
+    {
+      "id": "log_1791969751324_cx153",
+      "timestamp": 1791969751324,
+      "event": "Key slot #1 flagged: temporary_outage",
+      "status": "warning",
+      "details": "{\"slot\":1,\"category\":\"temporary_outage\",\"cooldownSeconds\":30}"
+    },
+    {
+      "id": "log_1791969744227_gv2ql",
+      "timestamp": 1791969744227,
+      "event": "AI response quota committed",
+      "status": "success",
+      "details": "{\"userId\":\"test_user_aarush\",\"totalUsed\":1,\"remaining\":4}"
+    },
+    {
+      "id": "log_1791969735732_apa3g",
+      "timestamp": 1791969735732,
+      "event": "Key pool initialized",
+      "status": "info",
+      "details": "{\"totalKeys\":1,\"defaultProvider\":\"gemini\",\"defaultModel\":\"gemini-3.8-flash\"}"
+    },
+    {
+      "id": "log_1791969700387_z78dn",
+      "timestamp": 1791969700387,
+      "event": "AI response quota reservation rolled back",
+      "status": "warning",
+      "details": "{\"userId\":\"test_user_aarush\",\"reason\":\"All available AI keys are temporarily busy. Temporary provider network glitch. Hearth is retrying.\"}"
+    },
+    {
+      "id": "log_1791969700386_sji71",
+      "timestamp": 1791969700386,
+      "event": "Key slot #1 flagged: temporary_outage",
+      "status": "warning",
+      "details": "{\"slot\":1,\"category\":\"temporary_outage\",\"cooldownSeconds\":30}"
+    },
+    {
+      "id": "log_1791969693344_3jcue",
+      "timestamp": 1791969693344,
+      "event": "Key pool initialized",
+      "status": "info",
+      "details": "{\"totalKeys\":1,\"defaultProvider\":\"gemini\",\"defaultModel\":\"gemini-3.8-flash\"}"
+    },
+    {
+      "id": "log_1791969590441_7y9a8",
+      "timestamp": 1791969590441,
+      "event": "AI response quota reservation rolled back",
+      "status": "warning",
+      "details": "{\"userId\":\"test_user_aarush\",\"reason\":\"All available AI keys are temporarily busy. Temporary provider network glitch. Hearth is retrying.\"}"
+    },
+    {
+      "id": "log_1791969590441_30fmg",
+      "timestamp": 1791969590441,
+      "event": "Key slot #1 flagged: temporary_outage",
+      "status": "warning",
+      "details": "{\"slot\":1,\"category\":\"temporary_outage\",\"cooldownSeconds\":30}"
+    },
+    {
+      "id": "log_1791969581292_8101v",
+      "timestamp": 1791969581292,
+      "event": "User registered for testing allowance",
+      "status": "info",
+      "details": "{\"userId\":\"test_user_aarush\",\"maxAllowed\":5}"
+    },
+    {
+      "id": "log_1791969573150_1k7bs",
+      "timestamp": 1791969573150,
+      "event": "Key pool initialized",
+      "status": "info",
+      "details": "{\"totalKeys\":1,\"defaultProvider\":\"gemini\",\"defaultModel\":\"gemini-2.5-flash\"}"
+    }
+  ]
+}
